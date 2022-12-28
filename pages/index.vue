@@ -63,7 +63,7 @@
               <button
                 id="dropdownNavbarLink"
                 data-dropdown-toggle="dropdownNavbar"
-                class="text-gray-700 text-themeText border-gray-100 md:hover:bg-transparent md:border-0 pl-3 pr-4 py-2 hover:text-green-600 md:p-0 font-medium flex items-center justify-between w-full md:w-auto"
+                class=" text-themeText border-gray-100 md:hover:bg-transparent md:border-0 pl-3 pr-4 py-2 hover:text-green-600 md:p-0 font-medium flex items-center justify-between w-full md:w-auto"
               >
                 About Us
                 <svg
@@ -88,21 +88,21 @@
                   <li>
                     <a
                       href="#"
-                      class="text-sm hover:text-green-600 text-gray-700 block px-4 py-2"
+                      class="text-black text-sm hover:text-green-600  block px-4 py-2"
                       >History</a
                     >
                   </li>
                   <li>
                     <a
                       href="#"
-                      class="text-sm hover:text-green-600 text-gray-700 block px-4 py-2"
+                      class="text-black text-sm hover:text-green-600  block px-4 py-2"
                       >Enquires</a
                     >
                   </li>
                   <li>
                     <a
                       href="#"
-                      class="text-sm hover:text-green-600 text-gray-700 block px-4 py-2"
+                      class="text-black text-sm hover:text-green-600  block px-4 py-2"
                       >Tuition Fees</a
                     >
                   </li>
@@ -112,21 +112,21 @@
             <li>
               <a
                 href="#"
-                class="text-gray-700 text-themeText  border-gray-100 md:hover:bg-transparent md:border-0 block pl-3 pr-4 py-2 hover:text-green-600 md:p-0"
+                class=" text-themeText  border-gray-100 md:hover:bg-transparent md:border-0 block pl-3 pr-4 py-2 hover:text-green-600 md:p-0"
                 >Accomodation</a
               >
             </li>
             <li>
               <a
                 href="#"
-                class="text-gray-700 text-themeText border-gray-100 md:hover:bg-transparent md:border-0 block pl-3 pr-4 py-2 hover:text-green-600 md:p-0"
+                class=" text-themeText border-gray-100 md:hover:bg-transparent md:border-0 block pl-3 pr-4 py-2 hover:text-green-600 md:p-0"
                 >Registration</a
               >
             </li>
             <li>
               <a
                 href="#"
-                class="text-gray-700 text-themeText border-gray-100 md:hover:bg-transparent md:border-0 block pl-3 pr-4 py-2 hover:text-green-600 md:p-0"
+                class=" text-themeText border-gray-100 md:hover:bg-transparent md:border-0 block pl-3 pr-4 py-2 hover:text-green-600 md:p-0"
                 >Admission Form</a
               >
             </li>
@@ -134,7 +134,7 @@
               <button
                 id="dropdownNavbarLink"
                 data-dropdown-toggle="dropdownNavbar1"
-                class="text-gray-700 text-themeText hover:text-green-600 border-gray-100 md:hover:bg-transparent md:border-0 pl-3 pr-4 py-2  md:p-0 font-medium flex items-center justify-between w-full md:w-auto"
+                class="hover:text-green-600 border-gray-100 md:hover:bg-transparent md:border-0 pl-3 pr-4 py-2  md:p-0 font-medium flex items-center justify-between w-full md:w-auto"
               >
                 Academics
                 <svg
@@ -159,28 +159,28 @@
                   <li>
                     <a
                       href="#"
-                      class="text-sm hover:text-green-600 text-gray-700 block px-4 py-2"
+                      class="text-black text-sm hover:text-green-600  block px-4 py-2"
                       >Faculty of Science & Computing</a
                     >
                   </li>
                   <li>
                     <a
                       href="#"
-                      class="text-sm hover:text-green-600 text-gray-700 block px-4 py-2"
+                      class="text-black text-sm hover:text-green-600  block px-4 py-2"
                       >Faculty of Social & Management Science</a
                     >
                   </li>
                   <li>
                     <a
                       href="#"
-                      class="text-sm hover:text-green-600 text-gray-700 block px-4 py-2"
+                      class="text-black text-sm hover:text-green-600  block px-4 py-2"
                       >Faculty of Sports</a
                     >
                   </li>
                   <li>
                     <a
                       href="#"
-                      class="text-sm hover:text-green-600 text-gray-700 block px-4 py-2"
+                      class="text-black text-sm hover:text-green-600  block px-4 py-2"
                       >Faculty of Basic Medical Science</a
                     >
                   </li>
@@ -196,7 +196,7 @@
 
     <!-- Background image -->
     <div
-      class="p-12 text-center hero1 relative overflow-hidden bg-no-repeat bg-cover lg:h-screen"
+      class="p-12 hero1 text-center hero1 relative overflow-hidden bg-no-repeat bg-cover lg:h-screen"
     >
       <div
         class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed"
@@ -343,13 +343,13 @@
         <h1 class="text-3xl text-themeText font-bold">Studying At Sport University</h1>
       </div>
       <div class="row">
-        <div class="course-col">
+        <div class="course-col shadow-lg">
           <img src="~/assets/image/prospective.png" alt="Campus Image" />
         </div>
-        <div class="course-col">
+        <div class="course-col shadow-lg">
           <img src="~/assets/image/undergraduate.png" alt="Campus Image" />
         </div>
-        <div class="course-col">
+        <div class="course-col shadow-lg">
           <img src="~/assets/image/postgraduate.png" alt="Campus Image" />
         </div>
       </div>
@@ -365,7 +365,7 @@
         </p>
       </div>
       <div class="row">
-        <div class="course-col">
+        <div class="course-col shadow-lg">
           <h1 class="text-2xl font-bold text-green-600">
             • Faculty Of Science &amp; Computing
           </h1>
@@ -384,7 +384,7 @@
             <li>4. Physics (B.Sc.) Physics With Electronics</li>
           </ul>
         </div>
-        <div class="course-col">
+        <div class="course-col shadow-lg">
           <h1 class="text-2xl font-bold text-green-600">
             • Faculty Of Social &amp; Management Sciences
           </h1>
@@ -403,14 +403,14 @@
             <li>6. Political Science (B.sc.) Political Science</li>
           </ul>
         </div>
-        <div class="course-col">
+        <div class="course-col shadow-lg">
           <h1 class="text-2xl font-bold text-green-600">• Faculty Of Sports</h1>
           <p class="text-lg">Departments & Programme</p>
           <ul class="py-5 text-left m-2">
             <li class="mb-2">Sports (B.sc.) Sports</li>
           </ul>
         </div>
-        <div class="course-col">
+        <div class="course-col shadow-lg">
           <h1 class="text-2xl font-bold text-green-600">
             • Faculty Of Basic Medical Sciences
           </h1>
@@ -456,14 +456,14 @@
 
     <section class="testimonials mt-3">
       <div class="block lg:flex justify-between gap-10">
-        <div class="testimonial-col">
+        <div class="testimonial-col shadow-lg">
           <div class="p-6">
             <h1 class="text-3xl text-green-600 font-bold">Apply Online</h1>
             <p class="mt-2">Ready to make Sports University work for you?</p>
             <button class="bg-green-600 text-white p-2 rounded mt-2">Apply Now</button>
           </div>
         </div>
-        <div class="testimonial-col">
+        <div class="testimonial-col shadow-lg">
           <div class="p-6">
             <h1 class="text-3xl text-green-600 font-bold">Download Prospects</h1>
             <p class="mt-2">
@@ -473,7 +473,7 @@
             <button class="bg-green-600 text-white p-2 rounded mt-2">Apply Now</button>
           </div>
         </div>
-        <div class="testimonial-col">
+        <div class="testimonial-col shadow-lg">
           <div class="p-6">
             <h1 class="text-3xl text-green-600 font-bold">Certification</h1>
             <p class="mt-2">Top-quality programs leading to recognized Certificates</p>
@@ -492,26 +492,26 @@
       </p>
 
       <div class="row">
-        <div class="facilities-col">
+        <div class="facilities-col shadow-lg">
           <img src="~/assets/image/library.jpg" alt="Library image" />
-          <h3>University Class Library</h3>
-          <p>
+          <h3 class="text-center text-themeText">University Class Library</h3>
+          <p class="text-themeText ">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum doloremque
             distinctio est?
           </p>
         </div>
-        <div class="facilities-col">
+        <div class="facilities-col shadow-lg">
           <img src="~/assets/css/hero.jpg" alt="Play ground image" />
-          <h3>Largest Play Ground</h3>
-          <p>
+          <h3 class="text-themeText">Largest Play Ground</h3>
+          <p class="text-themeText">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum doloremque
             distinctio est?
           </p>
         </div>
-        <div class="facilities-col">
+        <div class="facilities-col shadow-lg">
           <img src="~/assets/css/hero.jpg" alt="Cafeteria image" />
-          <h3>Tasty and Healthy Food</h3>
-          <p>
+          <h3 class="text-themeText">Tasty and Healthy Food</h3>
+          <p class="text-themeText">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum doloremque
             distinctio est?
           </p>
@@ -790,7 +790,8 @@ useHead({
 });
 </script>
 
-<style src="@vueform/toggle/themes/default.css">
+<style>
+/* src="@vueform/toggle/themes/default.css" */
 .hero1 {
   background-image: url(~/assets/css/hero.jpg);
   background-color: #cccccc;
