@@ -10,7 +10,12 @@ module.exports = {
     './node_modules/tw-elements/dist/js/**/*.js'
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        themeBackground: 'var(--background)',
+        themeText: 'var(--text)',
+      },
+    },
   },
   plugins: [require("daisyui"),
   require("tw-elements/dist/plugin")

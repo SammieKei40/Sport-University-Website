@@ -1,10 +1,16 @@
 <template>
-  <div>
+  <div
+    :class="{
+      'theme-light': !darkMode,
+      'theme-dark': darkMode,
+    }"
+    class="bg-themeBackground"
+  >
     <nav class="border-gray-200 p-3">
       <div class="container mx-auto flex flex-wrap items-center justify-between">
         <a href="#" class="flex">
           <img src="~/assets/image/SUU.jpg" class="h-10 mr-3 rounded-full" alt="..." />
-          <span class="self-center text-lg text-green-600 font-semibold whitespace-nowrap"
+          <span class="self-center text-lg text-green-600 text-themeText font-semibold whitespace-nowrap"
             >Sports University</span
           >
         </a>
@@ -41,14 +47,14 @@
             ></path>
           </svg>
         </button>
-        <div class="hidden md:block w-full md:w-auto" id="mobile-menu">
+        <div class="hidden md:block w-full md:w-auto text-themeText" id="mobile-menu">
           <ul
             class="flex-col md:flex-row flex md:space-x-8 mt-4 md:mt-0 md:text-sm md:font-medium"
           >
             <li>
               <a
                 href="#"
-                class="bg-blue-700 md:bg-transparent text-white block pl-3 pr-4 py-2 md:text-green-600 md:p-0 rounded focus:outline-none"
+                class=" md:bg-transparent text-themeText text-white block pl-3 pr-4 py-2 md:text-green-600 hover:text-green-600 md:p-0 rounded focus:outline-none"
                 aria-current="page"
                 >Student Portal</a
               >
@@ -57,7 +63,7 @@
               <button
                 id="dropdownNavbarLink"
                 data-dropdown-toggle="dropdownNavbar"
-                class="text-gray-700 hover:bg-gray-50 border-b border-gray-100 md:hover:bg-transparent md:border-0 pl-3 pr-4 py-2 md:hover:text-green-600 md:p-0 font-medium flex items-center justify-between w-full md:w-auto"
+                class="text-gray-700 text-themeText border-gray-100 md:hover:bg-transparent md:border-0 pl-3 pr-4 py-2 hover:text-green-600 md:p-0 font-medium flex items-center justify-between w-full md:w-auto"
               >
                 About Us
                 <svg
@@ -82,21 +88,21 @@
                   <li>
                     <a
                       href="#"
-                      class="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2"
+                      class="text-sm hover:text-green-600 text-gray-700 block px-4 py-2"
                       >History</a
                     >
                   </li>
                   <li>
                     <a
                       href="#"
-                      class="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2"
+                      class="text-sm hover:text-green-600 text-gray-700 block px-4 py-2"
                       >Enquires</a
                     >
                   </li>
                   <li>
                     <a
                       href="#"
-                      class="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2"
+                      class="text-sm hover:text-green-600 text-gray-700 block px-4 py-2"
                       >Tuition Fees</a
                     >
                   </li>
@@ -106,21 +112,21 @@
             <li>
               <a
                 href="#"
-                class="text-gray-700 hover:bg-gray-50 border-b border-gray-100 md:hover:bg-transparent md:border-0 block pl-3 pr-4 py-2 md:hover:text-green-600 md:p-0"
+                class="text-gray-700 text-themeText  border-gray-100 md:hover:bg-transparent md:border-0 block pl-3 pr-4 py-2 hover:text-green-600 md:p-0"
                 >Accomodation</a
               >
             </li>
             <li>
               <a
                 href="#"
-                class="text-gray-700 hover:bg-gray-50 border-b border-gray-100 md:hover:bg-transparent md:border-0 block pl-3 pr-4 py-2 md:hover:text-green-600 md:p-0"
+                class="text-gray-700 text-themeText border-gray-100 md:hover:bg-transparent md:border-0 block pl-3 pr-4 py-2 hover:text-green-600 md:p-0"
                 >Registration</a
               >
             </li>
             <li>
               <a
                 href="#"
-                class="text-gray-700 hover:bg-gray-50 border-b border-gray-100 md:hover:bg-transparent md:border-0 block pl-3 pr-4 py-2 md:hover:text-green-600 md:p-0"
+                class="text-gray-700 text-themeText border-gray-100 md:hover:bg-transparent md:border-0 block pl-3 pr-4 py-2 hover:text-green-600 md:p-0"
                 >Admission Form</a
               >
             </li>
@@ -128,7 +134,7 @@
               <button
                 id="dropdownNavbarLink"
                 data-dropdown-toggle="dropdownNavbar1"
-                class="text-gray-700 hover:bg-gray-50 border-b border-gray-100 md:hover:bg-transparent md:border-0 pl-3 pr-4 py-2 md:hover:text-green-600 md:p-0 font-medium flex items-center justify-between w-full md:w-auto"
+                class="text-gray-700 text-themeText hover:text-green-600 border-gray-100 md:hover:bg-transparent md:border-0 pl-3 pr-4 py-2  md:p-0 font-medium flex items-center justify-between w-full md:w-auto"
               >
                 Academics
                 <svg
@@ -153,35 +159,36 @@
                   <li>
                     <a
                       href="#"
-                      class="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2"
+                      class="text-sm hover:text-green-600 text-gray-700 block px-4 py-2"
                       >Faculty of Science & Computing</a
                     >
                   </li>
                   <li>
                     <a
                       href="#"
-                      class="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2"
+                      class="text-sm hover:text-green-600 text-gray-700 block px-4 py-2"
                       >Faculty of Social & Management Science</a
                     >
                   </li>
                   <li>
                     <a
                       href="#"
-                      class="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2"
+                      class="text-sm hover:text-green-600 text-gray-700 block px-4 py-2"
                       >Faculty of Sports</a
                     >
                   </li>
                   <li>
                     <a
                       href="#"
-                      class="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2"
+                      class="text-sm hover:text-green-600 text-gray-700 block px-4 py-2"
                       >Faculty of Basic Medical Science</a
                     >
                   </li>
                 </ul>
               </div>
             </li>
-            <button class="bg-green-600 text-white p-2 rounded ">Apply Now</button>
+            <button class="bg-green-600 hover:bg-green-700 text-white p-2 rounded">Apply Now</button>
+            <Toggle v-model="darkMode" off-label="Light" on-label="Dark" class="flex items-center  pt-4 lg:pt-0 md:pt-4 text-2xl text-center"/>
           </ul>
         </div>
       </div>
@@ -331,9 +338,9 @@
     </div>
 
     <!-- Course -->
-    <section class="course mt-3">
+    <section class="course mt-4">
       <div>
-        <h1>Studying At Sport University</h1>
+        <h1 class="text-3xl text-themeText font-bold">Studying At Sport University</h1>
       </div>
       <div class="row">
         <div class="course-col">
@@ -351,8 +358,8 @@
     <!-- Course -->
     <section class="course mt-3">
       <div>
-        <h1>Sports University Courses Offer</h1>
-        <p class="text-lg">
+        <h1 class="text-3xl text-themeText font-bold">Sports University Courses Offer</h1>
+        <p class="text-lg text-themeText ">
           The University disclosed its Institution focuses 80% on Sports Development,
           while 20% on conventional academy study.
         </p>
@@ -419,8 +426,8 @@
 
     <!-- Campus -->
     <section class="campus mt-3">
-      <h1>Our Campus</h1>
-      <p>
+      <h1 class="text-3xl text-themeText font-bold">Our Campus</h1>
+      <p class="text-themeText font-bold">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias itaque vitae
         libero.
       </p>
@@ -449,30 +456,27 @@
 
     <section class="testimonials mt-3">
       <div class="block lg:flex justify-between gap-10">
-        <div class=" testimonial-col">
+        <div class="testimonial-col">
           <div class="p-6">
-          <h1 class="text-3xl text-green-600 font-bold">Apply Online</h1>
+            <h1 class="text-3xl text-green-600 font-bold">Apply Online</h1>
+            <p class="mt-2">Ready to make Sports University work for you?</p>
+            <button class="bg-green-600 text-white p-2 rounded mt-2">Apply Now</button>
+          </div>
+        </div>
+        <div class="testimonial-col">
+          <div class="p-6">
+            <h1 class="text-3xl text-green-600 font-bold">Download Prospects</h1>
             <p class="mt-2">
-                Ready to make Sports University work for you?
+              Offering a higher education at a fraction of the cost. Request to speak to
+              an Advisor.
             </p>
             <button class="bg-green-600 text-white p-2 rounded mt-2">Apply Now</button>
           </div>
         </div>
-        <div class=" testimonial-col">
+        <div class="testimonial-col">
           <div class="p-6">
-          <h1 class="text-3xl text-green-600 font-bold">Download Prospects</h1>
-            <p class="mt-2">
-                Offering a higher education at a fraction of the cost. Request to speak to an Advisor.
-            </p>
-            <button class="bg-green-600 text-white p-2 rounded mt-2">Apply Now</button>
-          </div>
-        </div>
-        <div class=" testimonial-col">
-          <div class="p-6">
-          <h1 class="text-3xl text-green-600 font-bold">Certification</h1>
-            <p class="mt-2">
-                Top-quality programs leading to recognized Certificates
-            </p>
+            <h1 class="text-3xl text-green-600 font-bold">Certification</h1>
+            <p class="mt-2">Top-quality programs leading to recognized Certificates</p>
             <button class="bg-green-600 text-white p-2 rounded mt-2">Apply Now</button>
           </div>
         </div>
@@ -481,8 +485,8 @@
 
     <!-- ------Facilities--------- -->
     <section class="facilities mt-3">
-      <h1>Our Facilities</h1>
-      <p>
+      <h1 class="text-3xl text-themeText font-bold">Our Facilities</h1>
+      <p class="text-themeText font-bold">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea reprehenderit impedit
         numquam.
       </p>
@@ -517,14 +521,14 @@
 
     <!-- ----Testimonials---- -->
     <section class="testimonials mt-3">
-      <h1>What Our Student Says</h1>
-      <p>
+      <h1 class="text-3xl text-themeText font-bold">What Our Student Says</h1>
+      <p class="text-themeText font-bold">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi exercitationem
         pariatur amet.
       </p>
 
       <div class="row">
-        <div class="testimonial-col">
+        <div class="testimonial-col shadow-md">
           <img src="~/assets/css/hero.jpg" alt="User 1" />
           <div>
             <p>
@@ -562,16 +566,16 @@
     <!-- ----Call To Action---- -->
 
     <section class="cta">
-      <h1>
+      <h1 class="text-3xl text-themeText font-bold">
         Enroll For Our Various Online Courses<br />
         From The World
       </h1>
-      <a href="" class="hero-btn">CONTACT US</a>
+      <a href="" class="hero-btn rounded-lg text-themeText hover:bg-green-600 bg-themeBackground">CONTACT US</a>
     </section>
 
     <!-- ---Footer--- -->
 
-    <footer class="p-4 bg-white sm:p-6 dark:bg-gray-900">
+    <footer class="p-4 sm:p-6">
       <div class="md:flex md:justify-between">
         <div class="mb-6 md:mb-0">
           <a href="https://flowbite.com/" class="flex items-center">
@@ -585,33 +589,33 @@
         <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
           <div>
             <h2
-              class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white"
+              class="mb-6 text-sm font-semibold text-green-600 uppercase "
             >
               Resources
             </h2>
-            <ul class="text-gray-600 dark:text-gray-400">
+            <ul class="text-themeText">
               <li class="mb-4">
-                <a href="" class="hover:underline">Records</a>
+                <a href="" class="hover:text-green-600 hover:underline">Records</a>
               </li>
               <li class="mb-4">
-                <a href="" class="hover:underline">Give to SUN</a>
+                <a href="" class="hover:text-green-600 hover:underline">Give to SUN</a>
               </li>
             </ul>
           </div>
           <div>
             <h2
-              class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white"
+              class="mb-6 text-sm font-semibold text-green-600 uppercase"
             >
               Contact us
             </h2>
-            <ul class="text-gray-600 dark:text-gray-400">
+            <ul class="text-themeText dark:text-gray-400">
               <li class="mb-4">
-                <a href="https://github.com/themesberg/flowbite" class="hover:underline"
+                <a href="" class="hover:text-green-600 hover:underline"
                   >Enterprises</a
                 >
               </li>
               <li>
-                <a href="https://discord.gg/4eeurUVvTy" class="hover:underline"
+                <a href="" class="hover:text-green-600 hover:underline"
                   >Payment Portal</a
                 >
               </li>
@@ -619,29 +623,29 @@
           </div>
           <div>
             <h2
-              class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white"
+              class="mb-6 text-sm font-semibold text-green-600 uppercase "
             >
               Legal
             </h2>
-            <ul class="text-gray-600 dark:text-gray-400">
+            <ul class=" text-themeText">
               <li class="mb-4">
-                <a href="#" class="hover:underline">Privacy Policy</a>
+                <a href="#" class="hover:text-green-600 hover:underline">Privacy Policy</a>
               </li>
               <li>
-                <a href="#" class="hover:underline">Terms &amp; Conditions</a>
+                <a href="#" class="hover:text-green-600 hover:underline">Terms &amp; Conditions</a>
               </li>
             </ul>
           </div>
         </div>
       </div>
-      <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+      <hr class="my-6 text-themeText border-gray-200 sm:mx-auto lg:my-8" />
       <div class="sm:flex sm:items-center sm:justify-between">
-        <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400"
+        <span class="text-sm text-green-600 sm:text-center dark:text-gray-400"
           >© 2022 <a href="#" class="hover:underline">Sports University™</a>. All Rights
           Reserved.
         </span>
         <div class="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
-          <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
+          <a href="#" class="text-themeText hover:text-green-600">
             <svg
               class="w-5 h-5"
               fill="currentColor"
@@ -656,7 +660,7 @@
             </svg>
             <span class="sr-only">Facebook page</span>
           </a>
-          <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
+          <a href="#" class="text-themeText hover:text-green-600">
             <svg
               class="w-5 h-5"
               fill="currentColor"
@@ -671,7 +675,7 @@
             </svg>
             <span class="sr-only">Instagram page</span>
           </a>
-          <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
+          <a href="#" class="text-themeText hover:text-green-600">
             <svg
               class="w-5 h-5"
               fill="currentColor"
@@ -688,7 +692,7 @@
       </div>
     </footer>
     <button
-    v-if="!showButton"
+      v-if="!showButton"
       type="button"
       data-mdb-ripple="true"
       data-mdb-ripple-color="light"
@@ -713,33 +717,64 @@
   </div>
 </template>
 
-<script setup>
-import { reactive, toRefs, onMounted, onBeforeUnmount } from 'vue'
+<script setup lang="ts">
+import { reactive, toRefs, onMounted, onBeforeUnmount } from "vue";
+import Toggle from "@vueform/toggle";
+import { useState } from "#app";
+import { watch } from "@vue/runtime-core";
+
+
+type Theme = 'light' | 'dark';
+const LOCAL_STORAGE_THEME_KEY = 'theme';
+const darkMode = useState('theme', () => false);
+const setTheme = (newTheme: Theme) => {
+  localStorage.setItem(LOCAL_STORAGE_THEME_KEY, newTheme);
+  darkMode.value = newTheme === 'dark';
+};
+onMounted(() => {
+  const isDarkModePreferred = window.matchMedia(
+    '(prefers-color-scheme: dark)'
+  ).matches;
+  const themeFromLocalStorage = localStorage.getItem(
+    LOCAL_STORAGE_THEME_KEY
+  ) as Theme;
+  if (themeFromLocalStorage) {
+    setTheme(themeFromLocalStorage);
+  } else {
+    setTheme(isDarkModePreferred ? 'dark' : 'light');
+  }
+});
+watch(darkMode, selected => {
+  setTheme(selected ? 'dark' : 'light');
+});
+
+
+
+//Scroll Button to the top
 const state = reactive({
-      showButton: true,
-    })
+  showButton: true,
+});
 
-    const scrollToTop = () => {
-      window.scrollTo({ top: 0, behavior: 'smooth' })
-    }
+const scrollToTop = () => {
+  window.scrollTo({ top: 0, behavior: "smooth" });
+};
 
-    const handleScroll = () => {
-      if (window.scrollY > 100) {
-        state.showButton = true
-      } else {
-        state.showButton = false
-      }
-    }
+const handleScroll = () => {
+  if (window.scrollY > 100) {
+    state.showButton = true;
+  } else {
+    state.showButton = false;
+  }
+};
 
-    onMounted(() => {
-      window.addEventListener('scroll', handleScroll)
-    })
-    onBeforeUnmount(() => {
-      window.removeEventListener('scroll', handleScroll)
-    })
+onMounted(() => {
+  window.addEventListener("scroll", handleScroll);
+});
+onBeforeUnmount(() => {
+  window.removeEventListener("scroll", handleScroll);
+});
 
-
-    useHead({
+useHead({
   script: [
     {
       src: "https://unpkg.com/@themesberg/flowbite@1.1.1/dist/flowbite.bundle.js",
@@ -753,11 +788,9 @@ const state = reactive({
     },
   ],
 });
-
-
 </script>
 
-<style>
+<style src="@vueform/toggle/themes/default.css">
 .hero1 {
   background-image: url(~/assets/css/hero.jpg);
   background-color: #cccccc;
@@ -768,13 +801,6 @@ const state = reactive({
   position: relative;
 }
 
-* {
-  /* font-family: 'Roboto', sans-serif; */
-  font-family: "Poppins", sans-serif;
-  overflow-x: hidden;
-  margin: 0;
-  padding: 0;
-}
 #text::before {
   content: "";
   position: absolute;
@@ -817,8 +843,6 @@ const state = reactive({
 }
 
 .hero-btn:hover {
-  background: orange;
-  text-decoration: underline;
   transition: 0.2s;
 }
 
@@ -852,7 +876,7 @@ p {
 }
 
 .course-col {
-  background: #fff3f3;
+  background: white;
   margin: 0px 26px;
   border-radius: 10px;
   margin-bottom: 5%;
@@ -978,7 +1002,7 @@ h3 {
   border-radius: 10px;
   margin-bottom: 5%;
   text-align: left;
-  background: #fff3f3;
+  background: white;
   padding: 25px;
   cursor: pointer;
   display: flex;
