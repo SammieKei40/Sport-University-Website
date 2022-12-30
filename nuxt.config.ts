@@ -17,5 +17,8 @@ export default defineNuxtConfig({
             { name: 'description', content: 'My amazing site.' }
           ],
         }
-      }
+      },
+      plugins: [
+        { src: '~/plugins/aos', mode: 'client', ssr: false }
+      ],
 })

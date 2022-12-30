@@ -6,8 +6,7 @@
     }"
     class="bg-themeBackground"
   >
-    
-    <Navbar/>
+    <Navbar />
 
     <!-- Background image -->
     <div
@@ -158,13 +157,13 @@
         <h1 class="text-3xl text-themeText font-bold">Studying At Sport University</h1>
       </div>
       <div class="row">
-        <div class="course-col shadow-lg">
+        <div class="course-col shadow-lg" data-aos="fade-up" data-aos-duration="2000">
           <img src="~/assets/image/prospective.png" alt="Campus Image" />
         </div>
-        <div class="course-col shadow-lg">
+        <div class="course-col shadow-lg" data-aos="fade-down" data-aos-duration="2000">
           <img src="~/assets/image/undergraduate.png" alt="Campus Image" />
         </div>
-        <div class="course-col shadow-lg">
+        <div class="course-col shadow-lg" data-aos="fade-right" data-aos-duration="2000">
           <img src="~/assets/image/postgraduate.png" alt="Campus Image" />
         </div>
       </div>
@@ -174,13 +173,13 @@
     <section class="course mt-3">
       <div>
         <h1 class="text-3xl text-themeText font-bold">Sports University Courses Offer</h1>
-        <p class="text-lg text-themeText ">
+        <p class="text-lg text-themeText">
           The University disclosed its Institution focuses 80% on Sports Development,
           while 20% on conventional academy study.
         </p>
       </div>
       <div class="row">
-        <div class="course-col shadow-lg">
+        <div class="course-col shadow-lg" data-aos="flip-left" data-aos-duration="2000">
           <h1 class="text-2xl font-bold text-green-600">
             • Faculty Of Science &amp; Computing
           </h1>
@@ -199,7 +198,7 @@
             <li>4. Physics (B.Sc.) Physics With Electronics</li>
           </ul>
         </div>
-        <div class="course-col shadow-lg">
+        <div class="course-col shadow-lg" data-aos="flip-right" data-aos-duration="2000">
           <h1 class="text-2xl font-bold text-green-600">
             • Faculty Of Social &amp; Management Sciences
           </h1>
@@ -218,14 +217,14 @@
             <li>6. Political Science (B.sc.) Political Science</li>
           </ul>
         </div>
-        <div class="course-col shadow-lg">
+        <div class="course-col shadow-lg" data-aos="flip-up" data-aos-duration="2000">
           <h1 class="text-2xl font-bold text-green-600">• Faculty Of Sports</h1>
           <p class="text-lg">Departments & Programme</p>
           <ul class="py-5 text-left m-2">
             <li class="mb-2">Sports (B.sc.) Sports</li>
           </ul>
         </div>
-        <div class="course-col shadow-lg">
+        <div class="course-col shadow-lg" data-aos="flip-down" data-aos-duration="2000">
           <h1 class="text-2xl font-bold text-green-600">
             • Faculty Of Basic Medical Sciences
           </h1>
@@ -240,7 +239,7 @@
     </section>
 
     <!-- Campus -->
-    <section class="campus mt-3">
+    <section class="campus mt-3 mb-3">
       <h1 class="text-3xl text-themeText font-bold">Our Campus</h1>
       <p class="text-themeText font-bold">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias itaque vitae
@@ -248,20 +247,20 @@
       </p>
 
       <div class="row">
-        <div class="campus-col">
-          <img src="~/assets/css/hero.jpg" alt="Campus Image" />
+        <div class="campus-col" data-aos="zoom-in" data-aos-duration="2000">
+          <img src="~/assets/image/fac1.jpg" alt="Campus Image" />
           <div class="layer">
             <h3>Nigeria</h3>
           </div>
         </div>
-        <div class="campus-col">
-          <img src="~/assets/css/hero.jpg" alt="Campus Image" />
+        <div class="campus-col" data-aos="zoom-in-right" data-aos-duration="2000">
+          <img src="~/assets/image/fac2.jpg" alt="Campus Image" />
           <div class="layer">
             <h3>Nigeria</h3>
           </div>
         </div>
-        <div class="campus-col">
-          <img src="~/assets/css/hero.jpg" alt="Campus Image" />
+        <div class="campus-col" data-aos="zoom-in-down" data-aos-duration="2000">
+          <img src="~/assets/image/fac3.jfif" alt="Campus Image" />
           <div class="layer">
             <h3>Nigeria</h3>
           </div>
@@ -269,13 +268,13 @@
       </div>
     </section>
 
-    <section class="testimonials mt-3">
+    <section class="testimonials mt-6">
       <div class="block lg:flex justify-between gap-10">
         <div class="testimonial-col shadow-lg">
           <div class="p-6">
             <h1 class="text-3xl text-green-600 font-bold">Apply Online</h1>
             <p class="mt-2">Ready to make Sports University work for you?</p>
-            <button class="bg-green-600 text-white p-2 rounded mt-2">Apply Now</button>
+            <button class="bg-green-600 text-white p-4 rounded mt-10 animate-bounce">Apply Now</button>
           </div>
         </div>
         <div class="testimonial-col shadow-lg">
@@ -285,14 +284,14 @@
               Offering a higher education at a fraction of the cost. Request to speak to
               an Advisor.
             </p>
-            <button class="bg-green-600 text-white p-2 rounded mt-2">Apply Now</button>
+            <button class="bg-green-600 text-white p-4 rounded mt-10 animate-bounce">Apply Now</button>
           </div>
         </div>
         <div class="testimonial-col shadow-lg">
           <div class="p-6">
             <h1 class="text-3xl text-green-600 font-bold">Certification</h1>
             <p class="mt-2">Top-quality programs leading to recognized Certificates</p>
-            <button class="bg-green-600 text-white p-2 rounded mt-2">Apply Now</button>
+            <button class="bg-green-600 text-white p-4 rounded mt-10 animate-bounce">Apply Now</button>
           </div>
         </div>
       </div>
@@ -303,32 +302,39 @@
       <h1 class="text-3xl text-themeText font-bold">Our Facilities</h1>
       <p class="text-themeText font-bold">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea reprehenderit impedit
-        numquam.
+        numquam. 
+        
       </p>
 
       <div class="row">
-        <div class="facilities-col shadow-lg">
+        <div class="facilities-col shadow-lg" data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="2000">
           <img src="~/assets/image/library.jpg" alt="Library image" />
           <h3 class="text-center text-themeText">University Class Library</h3>
-          <p class="text-themeText ">
+          <p class="text-themeText">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum doloremque
-            distinctio est?
+            distinctio est? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis facilis fugit atque suscipit totam voluptates, aspernatur assumenda saepe facere cum ipsa, est inventore! Vitae nostrum, suscipit cupiditate dolore a velit?
           </p>
         </div>
-        <div class="facilities-col shadow-lg">
-          <img src="~/assets/css/hero.jpg" alt="Play ground image" />
+        <div class="facilities-col shadow-lg" data-aos="fade-up"
+     data-aos-easing="linear"
+     data-aos-duration="2000">
+          <img src="~/assets/image/playground.jpg" alt="Play ground image" />
           <h3 class="text-themeText">Largest Play Ground</h3>
           <p class="text-themeText">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum doloremque
-            distinctio est?
+            distinctio est? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum beatae animi, deserunt repellat quos alias perspiciatis sunt voluptatem? Vel facere facilis unde neque. Ullam dolore optio odio, aliquid beatae numquam?
           </p>
         </div>
-        <div class="facilities-col shadow-lg">
-          <img src="~/assets/css/hero.jpg" alt="Cafeteria image" />
+        <div class="facilities-col shadow-lg" data-aos="fade-right"
+     data-aos-easing="linear"
+     data-aos-duration="1500">
+          <img src="~/assets/image/food.jpg" alt="Cafeteria image" />
           <h3 class="text-themeText">Tasty and Healthy Food</h3>
           <p class="text-themeText">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum doloremque
-            distinctio est?
+            distinctio est? Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, odit id amet ipsa et aut labore laudantium consectetur commodi eaque placeat blanditiis! Eius, vero nisi excepturi obcaecati vitae illum totam?
           </p>
         </div>
       </div>
@@ -344,14 +350,14 @@
 
       <div class="row">
         <div class="testimonial-col shadow-md">
-          <img src="~/assets/css/hero.jpg" alt="User 1" />
+          <img src="~/assets/image/profile.png" alt="User 1" />
           <div>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, nobis
               perferendis? Hic officiis quisquam consequuntur placeat fugit, quis incidunt
               numquam libero voluptas natus.
             </p>
-            <h3>Christine Berkley</h3>
+            <h3>Francis Blessings</h3>
             <i class="fa-solid fa-star"></i>
             <i class="fa-solid fa-star"></i>
             <i class="fa-solid fa-star"></i>
@@ -360,14 +366,14 @@
           </div>
         </div>
         <div class="testimonial-col">
-          <img src="~/assets/css/hero.jpg" alt="User 1" />
+          <img src="~/assets/image/profile.png" alt="User 1" />
           <div>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, nobis
               perferendis? Hic officiis quisquam consequuntur placeat fugit, quis incidunt
               numquam libero voluptas natus.
             </p>
-            <h3>David Byer</h3>
+            <h3>Sammie Kei</h3>
             <i class="fa-solid fa-star"></i>
             <i class="fa-solid fa-star"></i>
             <i class="fa-solid fa-star"></i>
@@ -383,9 +389,13 @@
     <section class="cta">
       <h1 class="text-3xl text-themeText font-bold">
         Enroll For Our Various Online Courses<br />
-        From The World
+        
       </h1>
-      <a href="" class="hero-btn rounded-lg text-themeText hover:bg-green-600 bg-themeBackground">CONTACT US</a>
+      <a
+        href=""
+        class="hero-btn rounded-lg text-themeText hover:bg-green-600 bg-themeBackground"
+        >CONTACT US</a
+      >
     </section>
 
     <!-- ---Footer--- -->
@@ -399,15 +409,12 @@
               class="self-center text-lg text-green-600 font-semibold whitespace-nowrap"
               >Sports University</span
             >
+            
           </a>
         </div>
         <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
           <div>
-            <h2
-              class="mb-6 text-sm font-semibold text-green-600 uppercase "
-            >
-              Resources
-            </h2>
+            <h2 class="mb-6 text-sm font-semibold text-green-600 uppercase">Resources</h2>
             <ul class="text-themeText">
               <li class="mb-4">
                 <a href="" class="hover:text-green-600 hover:underline">Records</a>
@@ -418,36 +425,30 @@
             </ul>
           </div>
           <div>
-            <h2
-              class="mb-6 text-sm font-semibold text-green-600 uppercase"
-            >
+            <h2 class="mb-6 text-sm font-semibold text-green-600 uppercase">
               Contact us
             </h2>
             <ul class="text-themeText dark:text-gray-400">
               <li class="mb-4">
-                <a href="" class="hover:text-green-600 hover:underline"
-                  >Enterprises</a
-                >
+                <a href="" class="hover:text-green-600 hover:underline">Enterprises</a>
               </li>
               <li>
-                <a href="" class="hover:text-green-600 hover:underline"
-                  >Payment Portal</a
-                >
+                <a href="" class="hover:text-green-600 hover:underline">Payment Portal</a>
               </li>
             </ul>
           </div>
           <div>
-            <h2
-              class="mb-6 text-sm font-semibold text-green-600 uppercase "
-            >
-              Legal
-            </h2>
-            <ul class=" text-themeText">
+            <h2 class="mb-6 text-sm font-semibold text-green-600 uppercase">Legal</h2>
+            <ul class="text-themeText">
               <li class="mb-4">
-                <a href="#" class="hover:text-green-600 hover:underline">Privacy Policy</a>
+                <a href="#" class="hover:text-green-600 hover:underline"
+                  >Privacy Policy</a
+                >
               </li>
               <li>
-                <a href="#" class="hover:text-green-600 hover:underline">Terms &amp; Conditions</a>
+                <a href="#" class="hover:text-green-600 hover:underline"
+                  >Terms &amp; Conditions</a
+                >
               </li>
             </ul>
           </div>
@@ -511,7 +512,7 @@
       type="button"
       data-mdb-ripple="true"
       data-mdb-ripple-color="light"
-      class="bg-green-600 hover:bg-green-700 text-white font-bold py-2 px-4 rounded-full fixed bottom-0 right-0 m-4"
+      class="bg-green-600 animate-bounce hover:bg-green-700 text-white font-bold py-2 px-4 rounded-full fixed bottom-0 right-0 m-4"
       @click="scrollToTop"
     >
       <svg
@@ -537,32 +538,25 @@ import { reactive, toRefs, onMounted, onBeforeUnmount } from "vue";
 import { useState } from "#app";
 import { watch } from "@vue/runtime-core";
 
-
-type Theme = 'light' | 'dark';
-const LOCAL_STORAGE_THEME_KEY = 'theme';
-const darkMode = useState('theme', () => false);
+type Theme = "light" | "dark";
+const LOCAL_STORAGE_THEME_KEY = "theme";
+const darkMode = useState("theme", () => false);
 const setTheme = (newTheme: Theme) => {
   localStorage.setItem(LOCAL_STORAGE_THEME_KEY, newTheme);
-  darkMode.value = newTheme === 'dark';
+  darkMode.value = newTheme === "dark";
 };
 onMounted(() => {
-  const isDarkModePreferred = window.matchMedia(
-    '(prefers-color-scheme: dark)'
-  ).matches;
-  const themeFromLocalStorage = localStorage.getItem(
-    LOCAL_STORAGE_THEME_KEY
-  ) as Theme;
+  const isDarkModePreferred = window.matchMedia("(prefers-color-scheme: dark)").matches;
+  const themeFromLocalStorage = localStorage.getItem(LOCAL_STORAGE_THEME_KEY) as Theme;
   if (themeFromLocalStorage) {
     setTheme(themeFromLocalStorage);
   } else {
-    setTheme(isDarkModePreferred ? 'dark' : 'light');
+    setTheme(isDarkModePreferred ? "dark" : "light");
   }
 });
-watch(darkMode, selected => {
-  setTheme(selected ? 'dark' : 'light');
+watch(darkMode, (selected) => {
+  setTheme(selected ? "dark" : "light");
 });
-
-
 
 //Scroll Button to the top
 const state = reactive({
@@ -600,6 +594,11 @@ useHead({
       type: "text/javascript",
       body: true,
     },
+    {
+      src: "https://unpkg.com/aos@2.3.1/dist/aos.js",
+      type: "text/javascript",
+      body: true,
+    },
   ],
 });
 </script>
@@ -609,7 +608,7 @@ useHead({
 .hero1 {
   background-image: url(~/assets/css/hero.jpg);
   background-color: #cccccc;
-  height: 500px;
+  height: 700px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
