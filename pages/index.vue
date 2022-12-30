@@ -512,7 +512,7 @@
       type="button"
       data-mdb-ripple="true"
       data-mdb-ripple-color="light"
-      class="bg-green-600 animate-bounce hover:bg-green-700 text-white font-bold py-2 px-4 rounded-full fixed bottom-0 right-0 m-4"
+      class="bg-green-600 animate-bounce hover:bg-green-700 text-white  font-bold py-2 px-4 rounded-full fixed bottom-0 right-0 m-4"
       @click="scrollToTop"
     >
       <svg
